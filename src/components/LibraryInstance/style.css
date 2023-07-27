@@ -1,0 +1,27 @@
+.library-instance {
+  align-items: center;
+  background-color: #9747ff0a;
+  border: 1px dashed;
+  border-color: #9747ff;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 42px;
+  position: relative;
+}
+
+.library-instance .instance-slot {
+  color: #9747ff;
+  font-family: var(--components-helper-text-font-family);
+  font-size: var(--components-helper-text-font-size);
+  font-style: var(--components-helper-text-font-style);
+  font-weight: var(--components-helper-text-font-weight);
+  letter-spacing: var(--components-helper-text-letter-spacing);
+  line-height: var(--components-helper-text-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

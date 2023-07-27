@@ -1,0 +1,1 @@
+export { SearchFilled } from "./SearchFilled";

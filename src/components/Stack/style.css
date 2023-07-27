@@ -1,0 +1,93 @@
+.stack {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.stack .class {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-2 {
+  flex: 0 0 auto !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-3 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+}
+
+.stack .class-4 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-5 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-6 {
+  flex: 0 0 auto !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+}
+
+.stack .instance {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack.row {
+  flex-direction: column;
+}
+
+.stack.one {
+  gap: 8px;
+}
+
+.stack.seven {
+  gap: 56px;
+}
+
+.stack.two {
+  gap: 16px;
+}
+
+.stack.six {
+  gap: 48px;
+}
+
+.stack.eight {
+  gap: 64px;
+}
+
+.stack.three {
+  gap: 24px;
+}
+
+.stack.four {
+  gap: 32px;
+}
+
+.stack.five {
+  gap: 40px;
+}
+
+.stack.one {
+  flex-direction: column;
+}

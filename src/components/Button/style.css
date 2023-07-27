@@ -1,0 +1,867 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.button .img {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.button .base-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.button .progress-circular {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.button .ring {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/792ffb3e6c63ab2fbf08549b9fe966f4/img/background-8.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.button .line {
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: -1px;
+  width: 16px;
+}
+
+.button .min-width {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.button .text-wrapper-2 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.state-0-hovered {
+  overflow: hidden;
+}
+
+.button.color-1-inherit-white {
+  overflow: hidden;
+}
+
+.button.color-1-warning {
+  overflow: hidden;
+}
+
+.button.outlined {
+  border: 1px solid;
+}
+
+.button.state-0-disabled {
+  overflow: hidden;
+}
+
+.button.state-0-enabled {
+  overflow: hidden;
+}
+
+.button.color-1-secondary {
+  overflow: hidden;
+}
+
+.button.size-3-medium {
+  overflow: hidden;
+}
+
+.button.text.color-1-primary {
+  overflow: hidden;
+}
+
+.button.state-0-loading.contained {
+  background-color: var(--actiondisabledbackground);
+}
+
+.button.state-0-disabled.outlined {
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.size-3-medium.contained {
+  padding: 6px 16px;
+}
+
+.button.color-1-inherit-text.outlined {
+  overflow: hidden;
+}
+
+.button.text.size-3-small {
+  padding: 4px 5px;
+}
+
+.button.text.state-0-focused {
+  overflow: hidden;
+}
+
+.button.state-0-focused.color-1-info {
+  overflow: hidden;
+}
+
+.button.size-3-medium.outlined {
+  padding: 6px 16px;
+}
+
+.button.color-1-primary.outlined {
+  overflow: hidden;
+}
+
+.button.color-1-inherit-text.contained {
+  overflow: hidden;
+}
+
+.button.size-3-large.outlined {
+  overflow: hidden;
+  padding: 8px 22px;
+}
+
+.button.state-0-focused.color-1-inherit-text {
+  overflow: hidden;
+}
+
+.button.color-1-error.size-3-small {
+  overflow: hidden;
+}
+
+.button.outlined.color-1-info {
+  overflow: hidden;
+}
+
+.button.color-1-primary.size-3-small {
+  overflow: hidden;
+}
+
+.button.state-0-focused.outlined {
+  overflow: hidden;
+}
+
+.button.state-0-focused.size-3-small {
+  overflow: hidden;
+}
+
+.button.size-3-small.outlined {
+  padding: 4px 10px;
+}
+
+.button.state-0-disabled.contained {
+  background-color: var(--actiondisabledbackground);
+}
+
+.button.size-3-small.contained {
+  padding: 4px 10px;
+}
+
+.button.state-0-focused.contained {
+  box-shadow: var(--elevation-6);
+}
+
+.button.state-0-hovered.contained {
+  box-shadow: var(--elevation-4);
+}
+
+.button.color-1-info.contained {
+  overflow: hidden;
+}
+
+.button.color-1-error.outlined {
+  overflow: hidden;
+}
+
+.button.state-0-focused.color-1-success {
+  overflow: hidden;
+}
+
+.button.color-1-error.contained {
+  overflow: hidden;
+}
+
+.button.text.size-3-medium {
+  padding: 6px 8px;
+}
+
+.button.text.size-3-large {
+  padding: 8px 11px;
+}
+
+.button.size-3-small.color-1-info {
+  overflow: hidden;
+}
+
+.button.color-1-primary.state-0-loading {
+  overflow: hidden;
+}
+
+.button.size-3-large.contained {
+  padding: 8px 22px;
+}
+
+.button.state-0-enabled.contained {
+  box-shadow: var(--elevation-2);
+}
+
+.button.color-1-error.state-0-focused {
+  overflow: hidden;
+}
+
+.button.state-0-loading.outlined {
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.color-1-warning.state-0-hovered.contained {
+  background-color: var(--warningdark);
+}
+
+.button.color-1-error.state-0-hovered.contained {
+  background-color: var(--errordark);
+}
+
+.button.state-0-enabled.color-1-inherit-text.contained {
+  background-color: var(--grey-300);
+}
+
+.button.state-0-focused.color-1-secondary.outlined {
+  border-color: var(--secondarystatesoutlinedborder);
+}
+
+.button.state-0-focused.color-1-primary.contained {
+  background-color: var(--primarymain);
+}
+
+.button.text.state-0-hovered.color-1-info {
+  background-color: var(--infostateshover);
+}
+
+.button.color-1-success.state-0-hovered.outlined {
+  background-color: var(--successstateshover);
+  border-color: var(--successstatesoutlinedborder);
+}
+
+.button.state-0-enabled.outlined.color-1-info {
+  border-color: var(--infostatesoutlinedborder);
+}
+
+.button.state-0-enabled.color-1-inherit-white.contained {
+  background-color: var(--grey-300);
+}
+
+.button.color-1-success.state-0-hovered.contained {
+  background-color: var(--successdark);
+}
+
+.button.color-1-error.state-0-focused.outlined {
+  border-color: var(--errorstatesoutlinedborder);
+}
+
+.button.text.color-1-success.state-0-hovered {
+  background-color: var(--successstateshover);
+}
+
+.button.state-0-hovered.color-1-inherit-text.contained {
+  background-color: var(--grey-100);
+}
+
+.button.state-0-hovered.outlined.color-1-info {
+  background-color: var(--infostateshover);
+  border-color: var(--infostatesoutlinedborder);
+}
+
+.button.state-0-loading.size-3-large.contained {
+  overflow: hidden;
+}
+
+.button.color-1-success.state-0-enabled.outlined {
+  border-color: var(--successstatesoutlinedborder);
+}
+
+.button.color-1-success.size-3-large.contained {
+  overflow: hidden;
+}
+
+.button.text.state-0-loading.size-3-large {
+  border: 0px none;
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.color-1-primary.state-0-hovered.outlined {
+  background-color: var(--primarystateshover);
+  border-color: var(--primarystatesoutlinedborder);
+}
+
+.button.state-0-focused.outlined.color-1-info {
+  border-color: var(--infostatesoutlinedborder);
+}
+
+.button.state-0-enabled.color-1-warning.contained {
+  background-color: var(--warningmain);
+}
+
+.button.color-1-secondary.state-0-enabled.contained {
+  background-color: var(--secondarymain);
+}
+
+.button.color-1-info.state-0-hovered.contained {
+  background-color: var(--infodark);
+}
+
+.button.state-0-focused.color-1-success.contained {
+  background-color: var(--successmain);
+}
+
+.button.state-0-enabled.outlined.color-1-inherit-white {
+  border-color: var(--inheritwhitemain);
+}
+
+.button.state-0-hovered.color-1-inherit-white.contained {
+  background-color: var(--grey-100);
+}
+
+.button.state-0-focused.color-1-primary.outlined {
+  border-color: var(--primarystatesoutlinedborder);
+}
+
+.button.color-1-primary.outlined.state-0-enabled {
+  border-color: var(--primarystatesoutlinedborder);
+}
+
+.button.state-0-focused.color-1-secondary.contained {
+  background-color: var(--secondarymain);
+}
+
+.button.state-0-focused.color-1-warning.contained {
+  background-color: var(--warningmain);
+}
+
+.button.text.state-0-hovered.color-1-warning {
+  background-color: var(--warningstateshovered);
+}
+
+.button.color-1-secondary.state-0-hovered.contained {
+  background-color: var(--secondarydark);
+}
+
+.button.color-1-primary.state-0-hovered.contained {
+  background-color: var(--primarydark);
+}
+
+.button.color-1-secondary.outlined.state-0-enabled {
+  border-color: var(--secondarystatesoutlinedborder);
+}
+
+.button.state-0-focused.color-1-inherit-text.contained {
+  background-color: var(--grey-300);
+}
+
+.button.text.state-0-hovered.color-1-inherit-text {
+  background-color: var(--actionhover);
+}
+
+.button.text.size-3-large.state-0-disabled {
+  border: 0px none;
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.color-1-success.state-0-enabled.contained {
+  background-color: var(--successmain);
+}
+
+.button.color-1-info.state-0-enabled.contained {
+  background-color: var(--infomain);
+}
+
+.button.state-0-focused.outlined.color-1-warning {
+  border-color: var(--warningstatesoutlinedborder);
+}
+
+.button.color-1-error.state-0-enabled.outlined {
+  border-color: var(--errorstatesoutlinedborder);
+}
+
+.button.state-0-focused.color-1-success.outlined {
+  border-color: var(--successstatesoutlinedborder);
+}
+
+.button.state-0-hovered.outlined.color-1-inherit-white {
+  background-color: var(--actionhover);
+  border-color: var(--inheritwhitemain);
+}
+
+.button.color-1-error.state-0-hovered.outlined {
+  background-color: var(--errorstateshover);
+  border-color: var(--errorstatesoutlinedborder);
+}
+
+.button.state-0-hovered.outlined.color-1-warning {
+  background-color: var(--warningstateshovered);
+  border-color: var(--warningstatesoutlinedborder);
+}
+
+.button.color-1-error.state-0-enabled.contained {
+  background-color: var(--errormain);
+}
+
+.button.text.state-0-loading.size-3-medium {
+  border: 0px none;
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.color-1-primary.state-0-enabled.contained {
+  background-color: var(--primarymain);
+}
+
+.button.color-1-secondary.state-0-hovered.outlined {
+  background-color: var(--secondarystateshover);
+  border-color: var(--secondarystatesoutlinedborder);
+}
+
+.button.text.size-3-medium.state-0-disabled {
+  border: 0px none;
+  border-color: var(--actiondisabledbackground);
+}
+
+.button.color-1-error.state-0-focused.contained {
+  background-color: var(--errormain);
+}
+
+.button.text.color-1-error.state-0-hovered {
+  background-color: var(--errorstateshover);
+}
+
+.button.color-1-inherit-text.state-0-focused.outlined {
+  border-color: var(--inherittextprimarymain);
+}
+
+.button.color-1-inherit-text.state-0-hovered.outlined {
+  background-color: var(--actionhover);
+  border-color: var(--inherittextprimarymain);
+}
+
+.button.state-0-focused.outlined.color-1-inherit-white {
+  border-color: var(--inheritwhitemain);
+}
+
+.button.state-0-focused.color-1-inherit-white.contained {
+  background-color: var(--grey-300);
+}
+
+.button.color-1-inherit-text.state-0-enabled.outlined {
+  border-color: var(--inherittextprimarymain);
+}
+
+.button.text.color-1-secondary.state-0-hovered {
+  background-color: var(--secondarystateshover);
+}
+
+.button.state-0-enabled.outlined.color-1-warning {
+  border-color: var(--warningstatesoutlinedborder);
+}
+
+.button.text.color-1-primary.state-0-hovered {
+  background-color: var(--primarystateshover);
+}
+
+.button.color-1-info.state-0-focused.contained {
+  background-color: var(--infomain);
+}
+
+.button.text.state-0-hovered.color-1-inherit-white {
+  background-color: var(--actionhover);
+}
+
+.button.size-3-large .img {
+  height: 42px;
+}
+
+.button.size-3-small .img {
+  height: 30px;
+}
+
+.button.size-3-medium .img {
+  height: 36px;
+}
+
+.button.text.size-3-large .img {
+  width: 69px;
+}
+
+.button.text.size-3-small .img {
+  width: 51px;
+}
+
+.button.size-3-large.contained .img {
+  width: 91px;
+}
+
+.button.size-3-small.contained .img {
+  width: 61px;
+}
+
+.button.size-3-medium.outlined .img {
+  width: 75px;
+}
+
+.button.size-3-large.outlined .img {
+  width: 91px;
+}
+
+.button.size-3-medium.contained .img {
+  width: 75px;
+}
+
+.button.size-3-small.outlined .img {
+  width: 61px;
+}
+
+.button.text.size-3-medium .img {
+  width: 59px;
+}
+
+.button.size-3-large .ring {
+  margin-top: -80px;
+}
+
+.button.size-3-small .ring {
+  margin-top: -74px;
+}
+
+.button.size-3-medium .ring {
+  margin-top: -77px;
+}
+
+.button.text.size-3-large .ring {
+  margin-left: -151px;
+}
+
+.button.text.size-3-small .ring {
+  margin-left: -145px;
+}
+
+.button.size-3-large.contained .ring {
+  margin-left: -162px;
+}
+
+.button.size-3-small.contained .ring {
+  margin-left: -150px;
+}
+
+.button.size-3-medium.outlined .ring {
+  margin-left: -156px;
+}
+
+.button.size-3-large.outlined .ring {
+  margin-left: -162px;
+}
+
+.button.size-3-medium.contained .ring {
+  margin-left: -156px;
+}
+
+.button.size-3-small.outlined .ring {
+  margin-left: -150px;
+}
+
+.button.text.size-3-medium .ring {
+  margin-left: -148px;
+}
+
+.button.size-3-large .text-wrapper-2 {
+  font-family: var(--components-button-large-font-family);
+  font-size: var(--components-button-large-font-size);
+  font-style: var(--components-button-large-font-style);
+  font-weight: var(--components-button-large-font-weight);
+  letter-spacing: var(--components-button-large-letter-spacing);
+  line-height: var(--components-button-large-line-height);
+}
+
+.button.state-0-loading .text-wrapper-2 {
+  color: var(--actiondisabled);
+}
+
+.button.state-0-disabled .text-wrapper-2 {
+  color: var(--actiondisabled);
+}
+
+.button.size-3-medium .text-wrapper-2 {
+  font-family: var(--components-button-medium-font-family);
+  font-size: var(--components-button-medium-font-size);
+  font-style: var(--components-button-medium-font-style);
+  font-weight: var(--components-button-medium-font-weight);
+  letter-spacing: var(--components-button-medium-letter-spacing);
+  line-height: var(--components-button-medium-line-height);
+}
+
+.button.size-3-small .text-wrapper-2 {
+  font-family: var(--components-button-small-font-family);
+  font-size: var(--components-button-small-font-size);
+  font-style: var(--components-button-small-font-style);
+  font-weight: var(--components-button-small-font-weight);
+  letter-spacing: var(--components-button-small-letter-spacing);
+  line-height: var(--components-button-small-line-height);
+}
+
+.button.state-0-focused.color-1-inherit-text .text-wrapper-2 {
+  color: var(--inherittextprimarymain);
+}
+
+.button.state-0-hovered.color-1-inherit-white .text-wrapper-2 {
+  color: var(--inheritwhitemain);
+}
+
+.button.state-0-enabled.color-1-inherit-white .text-wrapper-2 {
+  color: var(--inheritwhitemain);
+}
+
+.button.state-0-enabled.color-1-inherit-text .text-wrapper-2 {
+  color: var(--inherittextprimarymain);
+}
+
+.button.state-0-hovered.color-1-inherit-text .text-wrapper-2 {
+  color: var(--inherittextprimarymain);
+}
+
+.button.state-0-focused.color-1-inherit-white .text-wrapper-2 {
+  color: var(--inheritwhitemain);
+}
+
+.button.color-1-warning.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--warningcontrast);
+}
+
+.button.color-1-error.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--errorcontrast);
+}
+
+.button.state-0-focused.color-1-secondary.outlined .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.state-0-focused.color-1-primary.contained .text-wrapper-2 {
+  color: var(--primarycontrast);
+}
+
+.button.text.state-0-hovered.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}
+
+.button.text.color-1-primary.state-0-enabled .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.color-1-success.state-0-hovered.outlined .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.state-0-enabled.outlined.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}
+
+.button.color-1-success.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--successcontrast);
+}
+
+.button.color-1-error.state-0-focused.outlined .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.text.color-1-success.state-0-hovered .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.state-0-hovered.outlined.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}
+
+.button.color-1-success.state-0-enabled.outlined .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.text.state-0-focused.color-1-success .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.text.color-1-success.state-0-enabled .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.color-1-primary.state-0-hovered.outlined .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.state-0-focused.outlined.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}
+
+.button.state-0-enabled.color-1-warning.contained .text-wrapper-2 {
+  color: var(--warningcontrast);
+}
+
+.button.color-1-secondary.state-0-enabled.contained .text-wrapper-2 {
+  color: var(--secondarycontrast);
+}
+
+.button.color-1-info.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--infocontrast);
+}
+
+.button.state-0-focused.color-1-success.contained .text-wrapper-2 {
+  color: var(--successcontrast);
+}
+
+.button.state-0-focused.color-1-primary.outlined .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.color-1-primary.outlined.state-0-enabled .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.state-0-focused.color-1-secondary.contained .text-wrapper-2 {
+  color: var(--secondarycontrast);
+}
+
+.button.state-0-focused.color-1-warning.contained .text-wrapper-2 {
+  color: var(--warningcontrast);
+}
+
+.button.text.state-0-hovered.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.color-1-secondary.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--secondarycontrast);
+}
+
+.button.color-1-primary.state-0-hovered.contained .text-wrapper-2 {
+  color: var(--primarycontrast);
+}
+
+.button.color-1-secondary.outlined.state-0-enabled .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.color-1-success.state-0-enabled.contained .text-wrapper-2 {
+  color: var(--successcontrast);
+}
+
+.button.color-1-info.state-0-enabled.contained .text-wrapper-2 {
+  color: var(--infocontrast);
+}
+
+.button.text.state-0-focused.color-1-primary .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.state-0-focused.outlined.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.color-1-error.state-0-enabled.outlined .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.text.state-0-focused.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}
+
+.button.text.color-1-secondary.state-0-enabled .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.state-0-focused.color-1-success.outlined .text-wrapper-2 {
+  color: var(--successmain);
+}
+
+.button.color-1-error.state-0-hovered.outlined .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.text.state-0-enabled.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.text.state-0-focused.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.state-0-hovered.outlined.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.text.color-1-error.state-0-enabled .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.color-1-error.state-0-focused.text .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.color-1-error.state-0-enabled.contained .text-wrapper-2 {
+  color: var(--errorcontrast);
+}
+
+.button.color-1-primary.state-0-enabled.contained .text-wrapper-2 {
+  color: var(--primarycontrast);
+}
+
+.button.text.state-0-focused.color-1-secondary .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.color-1-secondary.state-0-hovered.outlined .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.color-1-error.state-0-focused.contained .text-wrapper-2 {
+  color: var(--errorcontrast);
+}
+
+.button.text.color-1-error.state-0-hovered .text-wrapper-2 {
+  color: var(--errormain);
+}
+
+.button.text.color-1-secondary.state-0-hovered .text-wrapper-2 {
+  color: var(--secondarymain);
+}
+
+.button.state-0-enabled.outlined.color-1-warning .text-wrapper-2 {
+  color: var(--warningmain);
+}
+
+.button.text.color-1-primary.state-0-hovered .text-wrapper-2 {
+  color: var(--primarymain);
+}
+
+.button.color-1-info.state-0-focused.contained .text-wrapper-2 {
+  color: var(--infocontrast);
+}
+
+.button.text.state-0-enabled.color-1-info .text-wrapper-2 {
+  color: var(--infomain);
+}

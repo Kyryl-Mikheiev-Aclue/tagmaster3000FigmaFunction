@@ -1,0 +1,351 @@
+.fab {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.fab .base {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.fab .text-wrapper {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fab .add-filled {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.fab .focus-ripple {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.fab .div {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.fab .button-2 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.fab.hovered {
+  box-shadow: var(--elevation-6);
+}
+
+.fab.disabled {
+  background-color: var(--actiondisabledbackground);
+}
+
+.fab.enabled {
+  box-shadow: var(--elevation-6);
+}
+
+.fab.focused {
+  box-shadow: var(--elevation-6);
+}
+
+.fab.primary.hovered {
+  background-color: var(--primarydark);
+}
+
+.fab.focused.inherit-text {
+  background-color: var(--grey-300);
+}
+
+.fab.focused.secondary {
+  background-color: var(--secondarymain);
+}
+
+.fab.enabled.default {
+  background-color: var(--grey-300);
+}
+
+.fab.primary.enabled {
+  background-color: var(--primarymain);
+}
+
+.fab.hovered.inherit-text {
+  background-color: var(--grey-100);
+}
+
+.fab.secondary.enabled {
+  background-color: var(--secondarymain);
+}
+
+.fab.focused.inherit-white {
+  background-color: var(--grey-300);
+}
+
+.fab.hovered.inherit-white {
+  background-color: var(--grey-100);
+}
+
+.fab.hovered.default {
+  background-color: var(--grey-100);
+}
+
+.fab.enabled.inherit-white {
+  background-color: var(--grey-300);
+}
+
+.fab.focused.default {
+  background-color: var(--grey-300);
+}
+
+.fab.enabled.inherit-text {
+  background-color: var(--grey-300);
+}
+
+.fab.focused.primary {
+  background-color: var(--primarymain);
+}
+
+.fab.secondary.hovered {
+  background-color: var(--secondarydark);
+}
+
+.fab .large {
+  gap: 8px;
+}
+
+.fab .medium {
+  gap: 8px;
+}
+
+.fab .extended {
+  gap: 8px;
+}
+
+.fab .small.round {
+  padding: 8px;
+}
+
+.fab .medium.extended {
+  padding: 8px 16px;
+}
+
+.fab .round.large {
+  padding: 16px;
+}
+
+.fab .small.extended {
+  padding: 5px 8px;
+}
+
+.fab .round.medium {
+  padding: 12px;
+}
+
+.fab .large.extended {
+  padding: 12px 16px;
+}
+
+.fab .size-large {
+  font-family: var(--components-button-large-font-family);
+  font-size: var(--components-button-large-font-size);
+  font-style: var(--components-button-large-font-style);
+  font-weight: var(--components-button-large-font-weight);
+  letter-spacing: var(--components-button-large-letter-spacing);
+  line-height: var(--components-button-large-line-height);
+}
+
+.fab .size-small {
+  font-family: var(--components-button-medium-font-family);
+  font-size: var(--components-button-medium-font-size);
+  font-style: var(--components-button-medium-font-style);
+  font-weight: var(--components-button-medium-font-weight);
+  letter-spacing: var(--components-button-medium-letter-spacing);
+  line-height: var(--components-button-medium-line-height);
+}
+
+.fab .state-disabled {
+  color: var(--actiondisabled);
+}
+
+.fab .size-medium {
+  font-family: var(--components-button-medium-font-family);
+  font-size: var(--components-button-medium-font-size);
+  font-style: var(--components-button-medium-font-style);
+  font-weight: var(--components-button-medium-font-weight);
+  letter-spacing: var(--components-button-medium-letter-spacing);
+  line-height: var(--components-button-medium-line-height);
+}
+
+.fab .state-focused {
+  color: var(--primarycontrast);
+}
+
+.fab .color-primary.state-hovered {
+  color: var(--primarycontrast);
+}
+
+.fab .state-enabled.color-default {
+  color: var(--textprimary);
+}
+
+.fab .color-primary.state-enabled {
+  color: var(--primarycontrast);
+}
+
+.fab .state-hovered.color-inherit-text {
+  color: var(--inherittextprimarymain);
+}
+
+.fab .color-secondary.state-enabled {
+  color: var(--secondarycontrast);
+}
+
+.fab .state-hovered.color-inherit-white {
+  color: var(--inheritwhitemain);
+}
+
+.fab .state-hovered.color-default {
+  color: var(--textprimary);
+}
+
+.fab .state-enabled.color-inherit-white {
+  color: var(--inheritwhitemain);
+}
+
+.fab .state-enabled.color-inherit-text {
+  color: var(--inherittextprimarymain);
+}
+
+.fab .color-secondary.state-hovered {
+  color: var(--secondarycontrast);
+}
+
+.fab .size-0-small.variant-round {
+  height: 40px;
+  width: 40px;
+}
+
+.fab .size-0-medium.variant-extended {
+  height: 40px;
+  width: 90px;
+}
+
+.fab .variant-round.size-0-large {
+  height: 56px;
+  width: 56px;
+}
+
+.fab .size-0-small.variant-extended {
+  height: 34px;
+  width: 74px;
+}
+
+.fab .variant-round.size-0-medium {
+  height: 48px;
+  width: 48px;
+}
+
+.fab .size-0-large.variant-extended {
+  height: 50px;
+  width: 92px;
+}
+
+.fab .size-1-large {
+  gap: 8px;
+}
+
+.fab .size-1-medium {
+  gap: 8px;
+}
+
+.fab .variant-0-extended {
+  gap: 8px;
+}
+
+.fab .size-1-small.variant-0-round {
+  padding: 8px;
+}
+
+.fab .size-1-medium.variant-0-extended {
+  padding: 8px 16px;
+}
+
+.fab .variant-0-round.size-1-large {
+  padding: 16px;
+}
+
+.fab .size-1-small.variant-0-extended {
+  padding: 5px 8px;
+}
+
+.fab .variant-0-round.size-1-medium {
+  padding: 12px;
+}
+
+.fab .size-1-large.variant-0-extended {
+  padding: 12px 16px;
+}
+
+.fab .color-0-secondary {
+  color: var(--secondarycontrast);
+}
+
+.fab .size-2-large {
+  font-family: var(--components-button-large-font-family);
+  font-size: var(--components-button-large-font-size);
+  font-style: var(--components-button-large-font-style);
+  font-weight: var(--components-button-large-font-weight);
+  letter-spacing: var(--components-button-large-letter-spacing);
+  line-height: var(--components-button-large-line-height);
+}
+
+.fab .color-0-primary {
+  color: var(--primarycontrast);
+}
+
+.fab .color-0-inherit-white {
+  color: var(--inheritwhitemain);
+}
+
+.fab .size-2-small {
+  font-family: var(--components-button-medium-font-family);
+  font-size: var(--components-button-medium-font-size);
+  font-style: var(--components-button-medium-font-style);
+  font-weight: var(--components-button-medium-font-weight);
+  letter-spacing: var(--components-button-medium-letter-spacing);
+  line-height: var(--components-button-medium-line-height);
+}
+
+.fab .size-2-medium {
+  font-family: var(--components-button-medium-font-family);
+  font-size: var(--components-button-medium-font-size);
+  font-style: var(--components-button-medium-font-style);
+  font-weight: var(--components-button-medium-font-weight);
+  letter-spacing: var(--components-button-medium-letter-spacing);
+  line-height: var(--components-button-medium-line-height);
+}
+
+.fab .color-0-default {
+  color: var(--textprimary);
+}
+
+.fab .color-0-inherit-text {
+  color: var(--inherittextprimarymain);
+}

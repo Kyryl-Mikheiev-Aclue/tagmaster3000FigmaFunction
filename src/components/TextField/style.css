@@ -1,0 +1,642 @@
+.text-field {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 220px;
+}
+
+.text-field .input {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .templabel {
+  font-family: var(--components-input-label-font-family);
+  font-size: var(--components-input-label-font-size);
+  font-style: var(--components-input-label-font-style);
+  font-weight: var(--components-input-label-font-weight);
+  letter-spacing: var(--components-input-label-letter-spacing);
+  line-height: var(--components-input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .label {
+  position: relative;
+}
+
+.text-field .min-height {
+  height: 24px;
+  position: relative;
+  width: 1.05e-6px;
+}
+
+.text-field .value {
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .underline {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .input-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .label-2 {
+  align-self: stretch;
+  color: var(--textsecondary);
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .label-3 {
+  font-family: var(--components-input-label-font-family);
+  font-size: var(--components-input-label-font-size);
+  font-style: var(--components-input-label-font-style);
+  font-weight: var(--components-input-label-font-weight);
+  letter-spacing: var(--components-input-label-letter-spacing);
+  line-height: var(--components-input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-2 {
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .min-height-2 {
+  position: relative;
+}
+
+.text-field .min-width-2 {
+  height: 0;
+  position: relative;
+  width: 24px;
+}
+
+.text-field .underline-2 {
+  left: 0;
+  position: absolute;
+  width: 220px;
+}
+
+.text-field .content-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .label-4 {
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .value-3 {
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .label-container {
+  align-items: center;
+  background-color: var(--backgroundpaper-elevation-1);
+  display: inline-flex;
+  gap: 10px;
+  height: 2px;
+  left: 12px;
+  padding: 0px 4px;
+  position: absolute;
+  top: 0;
+}
+
+.text-field .label-5 {
+  font-family: var(--components-input-label-font-family);
+  font-size: var(--components-input-label-font-size);
+  font-style: var(--components-input-label-font-style);
+  font-weight: var(--components-input-label-font-weight);
+  letter-spacing: var(--components-input-label-letter-spacing);
+  line-height: var(--components-input-label-line-height);
+  margin-bottom: -4px;
+  margin-top: -6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .content-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--inputoutlinedenabledborder);
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .content-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  padding: 16px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-4 {
+  color: var(--textprimary);
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.text-field .label-6 {
+  color: var(--textsecondary);
+  font-family: var(--components-input-label-font-family);
+  font-size: var(--components-input-label-font-size);
+  font-style: var(--components-input-label-font-style);
+  font-weight: var(--components-input-label-font-weight);
+  letter-spacing: var(--components-input-label-letter-spacing);
+  line-height: var(--components-input-label-line-height);
+  margin-bottom: -4px;
+  margin-top: -6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .variant-2-outlined {
+  border-radius: 4px;
+  padding: 0px 12px;
+}
+
+.text-field .variant-2-filled {
+  border-radius: 4px 4px 0px 0px;
+  overflow: hidden;
+}
+
+.text-field .state-2-enabled.variant-2-outlined {
+  border: 1px solid;
+  border-color: var(--inputoutlinedenabledborder);
+}
+
+.text-field .state-2-disabled.variant-2-outlined {
+  border: 1px solid;
+  border-color: var(--inputoutlinedenabledborder);
+}
+
+.text-field .state-2-hovered.variant-2-outlined {
+  border: 1px solid;
+  border-color: var(--inputoutlinedhoverborder);
+}
+
+.text-field .state-2-focused.variant-2-filled {
+  background-color: var(--inputfilledenabledfill);
+}
+
+.text-field .variant-2-filled.state-2-disabled {
+  background-color: var(--inputfilledenabledfill);
+}
+
+.text-field .state-2-focused.variant-2-outlined {
+  border: 2px solid;
+  border-color: var(--primarymain);
+}
+
+.text-field .variant-2-filled.state-2-error {
+  background-color: var(--inputfilledenabledfill);
+}
+
+.text-field .variant-2-standard.size-7-medium {
+  gap: 5.5px;
+}
+
+.text-field .state-2-enabled.variant-2-filled {
+  background-color: var(--inputfilledenabledfill);
+}
+
+.text-field .variant-2-standard.size-7-small {
+  gap: 4px;
+}
+
+.text-field .state-2-error.variant-2-outlined {
+  border: 1px solid;
+  border-color: var(--errormain);
+}
+
+.text-field .state-2-hovered.variant-2-filled {
+  background-color: var(--inputfilledhoverfill);
+}
+
+.text-field .state-3-hovered {
+  color: var(--textsecondary);
+}
+
+.text-field .state-3-disabled {
+  color: var(--textdisabled);
+}
+
+.text-field .state-3-error {
+  color: var(--errormain);
+}
+
+.text-field .has-value-false {
+  opacity: 0;
+}
+
+.text-field .state-3-enabled {
+  color: var(--textsecondary);
+}
+
+.text-field .state-3-focused {
+  color: var(--primarymain);
+}
+
+.text-field .has-value-0-true {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.text-field .has-value-0-false {
+  flex: 1;
+  font-family: var(--components-input-text-font-family);
+  font-size: var(--components-input-text-font-size);
+  font-style: var(--components-input-text-font-style);
+  font-weight: var(--components-input-text-font-weight);
+  letter-spacing: var(--components-input-text-letter-spacing);
+  line-height: var(--components-input-text-line-height);
+  white-space: nowrap;
+  width: 220px;
+}
+
+.text-field .state-4-enabled.has-value-0-false {
+  color: var(--textsecondary);
+}
+
+.text-field .state-4-focused.has-value-0-false {
+  color: var(--textsecondary);
+}
+
+.text-field .has-value-0-false.state-4-error {
+  color: var(--textsecondary);
+}
+
+.text-field .has-value-0-false.state-4-hovered {
+  color: var(--textsecondary);
+}
+
+.text-field .has-value-0-false.state-4-disabled {
+  color: var(--textdisabled);
+}
+
+.text-field .size-8-medium {
+  gap: 3px;
+}
+
+.text-field .size-8-small {
+  gap: 2px;
+}
+
+.text-field .has-value-1-true.size-8-medium {
+  padding: 9px 12px 8px;
+}
+
+.text-field .has-value-1-false.size-8-small {
+  padding: 12px;
+}
+
+.text-field .size-8-small.has-value-1-true {
+  padding: 6px 12px 4px;
+}
+
+.text-field .has-value-1-false.size-8-medium {
+  padding: 16px 12px;
+}
+
+.text-field .label.state-4-hovered .value {
+  color: var(--textprimary);
+}
+
+.text-field .label.state-4-disabled .value {
+  color: var(--textdisabled);
+}
+
+.text-field .label.state-4-focused .value {
+  color: var(--textprimary);
+}
+
+.text-field .label.state-4-enabled .value {
+  color: var(--textprimary);
+}
+
+.text-field .label.state-4-error .value {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-hovered .underline {
+  height: 2px;
+}
+
+.text-field .input.state-2-disabled .underline {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-2-focused .underline {
+  height: 2px;
+}
+
+.text-field .input.state-2-enabled .underline {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-2-error .underline {
+  height: 2px;
+}
+
+.text-field .input.state-2-hovered .label-3 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-disabled .label-3 {
+  color: var(--textdisabled);
+}
+
+.text-field .input.state-2-focused .label-3 {
+  color: var(--primarymain);
+}
+
+.text-field .input.state-2-enabled .label-3 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-error .label-3 {
+  color: var(--errormain);
+}
+
+.text-field .input.state-2-hovered .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-disabled .value-2 {
+  color: var(--textdisabled);
+}
+
+.text-field .input.state-2-focused .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-enabled .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-error .value-2 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-hovered .min-height-2 {
+  height: 0;
+  width: 24px;
+}
+
+.text-field .input.state-2-disabled .min-height-2 {
+  height: 0;
+  width: 24px;
+}
+
+.text-field .input.state-2-focused .min-height-2 {
+  height: 24px;
+  width: 1.05e-6px;
+}
+
+.text-field .input.state-2-enabled .min-height-2 {
+  height: 0;
+  width: 24px;
+}
+
+.text-field .input.state-2-error .min-height-2 {
+  height: 0;
+  width: 24px;
+}
+
+.text-field .input.state-2-hovered .underline-2 {
+  height: 2px;
+}
+
+.text-field .input.state-2-disabled .underline-2 {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-2-error .underline-2 {
+  height: 2px;
+}
+
+.text-field .input.state-2-enabled .underline-2 {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-2-focused .underline-2 {
+  height: 2px;
+}
+
+.text-field .input.state-2-focused.size-7-medium .underline-2 {
+  top: 54px;
+}
+
+.text-field .input.state-2-enabled.size-7-small .underline-2 {
+  top: 47px;
+}
+
+.text-field .input.size-7-small.state-2-hovered .underline-2 {
+  top: 46px;
+}
+
+.text-field .input.size-7-medium.state-2-disabled .underline-2 {
+  top: 55px;
+}
+
+.text-field .input.state-2-hovered.size-7-medium .underline-2 {
+  top: 54px;
+}
+
+.text-field .input.state-2-focused.size-7-small .underline-2 {
+  top: 46px;
+}
+
+.text-field .input.size-7-small.state-2-disabled .underline-2 {
+  top: 47px;
+}
+
+.text-field .input.size-7-small.state-2-error .underline-2 {
+  top: 46px;
+}
+
+.text-field .input.size-7-medium.state-2-error .underline-2 {
+  top: 54px;
+}
+
+.text-field .input.state-2-enabled.size-7-medium .underline-2 {
+  top: 55px;
+}
+
+.text-field .input.size-7-medium .content-2 {
+  padding: 16px 0px;
+}
+
+.text-field .input.size-7-small .content-2 {
+  padding: 8px 0px;
+}
+
+.text-field .input.state-2-hovered .label-4 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-disabled .label-4 {
+  color: var(--textdisabled);
+}
+
+.text-field .input.state-2-error .label-4 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-enabled .label-4 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-focused.size-7-medium .label-4 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-focused.size-7-small .label-4 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-hovered .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-disabled .value-3 {
+  color: var(--textdisabled);
+}
+
+.text-field .input.state-2-focused .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-enabled .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-error .value-3 {
+  color: var(--textprimary);
+}
+
+.text-field .input.state-2-hovered .label-5 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-disabled .label-5 {
+  color: var(--textdisabled);
+}
+
+.text-field .input.state-2-focused .label-5 {
+  color: var(--primarymain);
+}
+
+.text-field .input.state-2-enabled .label-5 {
+  color: var(--textsecondary);
+}
+
+.text-field .input.state-2-error .label-5 {
+  color: var(--errormain);
+}
